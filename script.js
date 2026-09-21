@@ -1,23 +1,23 @@
 const produtos = [
   {
-    nome: "Perfume",
-    descricao: "Perfume para uso diário",
-    preco: "500 MT"
+    nome: "Amélia",
+    descricao: "Gostoso de mais",
+    preco:$25
   },
   {
-    nome: "Creme corporal",
-    descricao: "Creme para cuidados da pele",
-    preco: "350 MT"
+    nome: "Vanessa Hugo",
+    descricao: "Cuzinho da abertado",
+    preco: $35"
   },
   {
-    nome: "Batom",
-    descricao: "Batom para maquiagem",
-    preco: "200 MT"
+    nome: "Baltazar",
+    descricao: "Bunda gigante",
+    preco: "$20"
   },
   {
-    nome: "Shampoo",
-    descricao: "Shampoo para cuidados do cabelo",
-    preco: "300 MT"
+    nome: "Shaquira",
+    descricao: "Shaquira fudendo com o negão",
+    preco: $30"
   }
 ];
 
@@ -41,4 +41,5 @@ produtos.forEach((produto) => {
 
 function comprar(nome) {
   alert("Você escolheu: " + nome);
+  Conteúdo adulto+🔞
 }
