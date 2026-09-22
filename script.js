@@ -2,12 +2,12 @@ const produtos = [
   {
     nome: "Amélia",
     descricao: "Gostoso de mais",
-    preco:$25
+    preco:"$25
   },
   {
     nome: "Vanessa Hugo",
     descricao: "Cuzinho da abertado",
-    preco: $35"
+    preco: "$35"
   },
   {
     nome: "Baltazar",
@@ -17,7 +17,7 @@ const produtos = [
   {
     nome: "Shaquira",
     descricao: "Shaquira fudendo com o negão",
-    preco: $30"
+    preco: "$30"
   }
 ];
 
