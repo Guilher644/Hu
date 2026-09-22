@@ -1,22 +1,22 @@
 const produtos = [
   {
     nome: "Amélia",
-    descricao: "Gostoso de mais",
-    preco:"$25
+    descricao: "Produto de qualidade",
+    preco: "$25"
   },
   {
     nome: "Vanessa Hugo",
-    descricao: "Cuzinho da abertado",
+    descricao: "Produto de qualidade",
     preco: "$35"
   },
   {
     nome: "Baltazar",
-    descricao: "Bunda gigante",
+    descricao: "Produto de qualidade",
     preco: "$20"
   },
   {
     nome: "Shaquira",
-    descricao: "Shaquira fudendo com o negão",
+    descricao: "Produto de qualidade",
     preco: "$30"
   }
 ];
@@ -24,22 +24,13 @@ const produtos = [
 const catalogo = document.getElementById("catalogo");
 
 produtos.forEach((produto) => {
-  const card = document.createElement("div");
+  const item = document.createElement("div");
 
-  card.innerHTML = `
+  item.innerHTML = `
     <h2>${produto.nome}</h2>
     <p>${produto.descricao}</p>
     <strong>${produto.preco}</strong>
-    <br><br>
-    <button onclick="comprar('${produto.nome}')">
-      Comprar Agora
-    </button>
   `;
 
-  catalogo.appendChild(card);
+  catalogo.appendChild(item);
 });
-
-function comprar(nome) {
-  alert("Você escolheu: " + nome);
-  Conteúdo adulto+🔞
-}
